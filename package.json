@@ -1,0 +1,37 @@
+{
+  "name": "redis-promise",
+  "version": "0.0.1",
+  "description": "Helper methods for Redis and global connection handler",
+  "main": "./libs/redis.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertorestifo/node-redis-promise.git"
+  },
+  "keywords": [
+    "redis",
+    "promises"
+  ],
+  "author": "Alberto Restifo",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/albertorestifo/node-redis-promise/issues"
+  },
+  "homepage": "https://github.com/albertorestifo/node-redis-promise",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "hiredis": "^0.4.0",
+    "redis": "^0.12.1",
+    "shortid": "^2.2.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-istanbul": "^0.2.9",
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-mocha": "^2.1.2",
+    "regenerator": "^0.8.32"
+  }
+}

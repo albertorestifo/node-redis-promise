@@ -1,0 +1,10 @@
+{
+  "preset": "google",
+  "maximumLineLength": {
+      "value": 80,
+      "allowComments": true,
+      "allowUrlComments": true,
+      "allowRegex": true
+    },
+  "excludeFiles": ["test"]
+}
