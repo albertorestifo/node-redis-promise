@@ -1,5 +1,7 @@
 # node-redis-promise
 
+[![Build Status](https://img.shields.io/travis/albertorestifo/node-redis-promise.svg?style=flat-square)](https://travis-ci.org/albertorestifo/node-redis-promise) [![Code Coverage](https://img.shields.io/codecov/c/github/codecov/albertorestifo/node-redis-promise.svg?style=flat-square)](https://codecov.io/github/albertorestifo/node-redis-promise) [![NPM](https://img.shields.io/npm/v/redis-promise.svg?style=flat-square)](https://www.npmjs.com/package/redis-promise)
+
 > Helper methods for Redis and global connection handler
 
 __Note:__ This module uses ES6 code and it's meant to be used with iojs in conjunction with the `--es_staging` flag.
