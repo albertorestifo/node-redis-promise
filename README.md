@@ -1,6 +1,6 @@
 # node-redis-promise
 
-[![Build Status](https://img.shields.io/travis/albertorestifo/node-redis-promise.svg?style=flat-square)](https://travis-ci.org/albertorestifo/node-redis-promise) [![Code Coverage](https://img.shields.io/codecov/c/github/codecov/albertorestifo/node-redis-promise.svg?style=flat-square)](https://codecov.io/github/albertorestifo/node-redis-promise) [![NPM](https://img.shields.io/npm/v/redis-promise.svg?style=flat-square)](https://www.npmjs.com/package/redis-promise)
+[![Build Status](https://img.shields.io/travis/albertorestifo/node-redis-promise.svg?style=flat-square)](https://travis-ci.org/albertorestifo/node-redis-promise) [![Code Coverage](https://img.shields.io/codecov/c/github/codecov/albertorestifo/node-redis-promise.svg?style=flat-square)](https://codecov.io/github/albertorestifo/node-redis-promise) [![NPM](https://img.shields.io/npm/v/redis-promise.svg?style=flat-square)](https://www.npmjs.com/package/node-redis-promise)
 
 > Helper methods for Redis and global connection handler
 
@@ -9,7 +9,7 @@ __Note:__ This module uses ES6 code and it's meant to be used with iojs in conju
 ## Install
 
 ```shell
-npm install redis-promise --save
+npm install node-redis-promise --save
 ```
 
 ## Usage Example
@@ -17,7 +17,7 @@ npm install redis-promise --save
 First you need to create a global connection, for example in your `index.js`:
 
 ```js
-var redis = require('redis-promise');
+var redis = require('node-redis-promise');
 
 redis.connect();
 ```
@@ -25,7 +25,7 @@ redis.connect();
 And then in `foo.js`:
 
 ```js
-var redis = require('redis-promise');
+var redis = require('node-redis-promise');
 
 redis.set({foo: 'bar'}, {
       prefix: 'bar_',
@@ -47,7 +47,7 @@ redis.set({foo: 'bar'}, {
 If you need to quit the global conneciton you can do so it two ways:
 
 ```js
-var redis = require('redis-promise');
+var redis = require('node-redis-promise');
 redis.quit();
 
 // OR

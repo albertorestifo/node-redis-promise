@@ -1,5 +1,5 @@
 {
-  "name": "redis-promise",
+  "name": "node-redis-promise",
   "version": "0.1.0",
   "description": "Helper methods for Redis and global connection handler",
   "main": "./libs/redis.js",
