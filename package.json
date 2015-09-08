@@ -1,5 +1,5 @@
 {
-  "name": "node-redis-promise",
+  "name": "redis-superpowers",
   "version": "0.2.1",
   "description": "Helper methods for Redis and global connection handler",
   "main": "./libs/redis.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/albertorestifo/node-redis-promise.git"
+    "url": "https://github.com/albertorestifo/redis-superpowers.git"
   },
   "keywords": [
     "redis",
@@ -17,9 +17,9 @@
   "author": "Alberto Restifo",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/albertorestifo/node-redis-promise/issues"
+    "url": "https://github.com/albertorestifo/redis-superpowers/issues"
   },
-  "homepage": "https://github.com/albertorestifo/node-redis-promise",
+  "homepage": "https://github.com/albertorestifo/redis-superpowers",
   "dependencies": {
     "bluebird": "^2.9.30",
     "hiredis": "^0.4.0",
